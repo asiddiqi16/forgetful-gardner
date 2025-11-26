@@ -1,0 +1,99 @@
+.htmx-indicator {
+  opacity: 0;
+  visibility: hidden;
+  width: 0px;
+}
+.htmx-request .htmx-indicator,
+.htmx-request.htmx-indicator {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 200ms ease-in;
+  width: 100px;
+  display: block;
+  margin-left: 35%;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif !important;
+  background-color: #264f3c !important;
+  color: #d7c097 !important;
+}
+
+.main {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+}
+h1 {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #007e6e;
+  border-radius: 10px;
+  color: #e7deaf !important;
+}
+
+#example-photo {
+  display: block;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.instructions {
+  display: block;
+  margin-top: 10px;
+}
+
+.instructions li {
+  list-style: none;
+  padding: 5px 0;
+  text-align: left;
+}
+
+#results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#results ul.fertiliser {
+  list-style: disc;
+  padding-left: 25px;
+  margin: 0;
+}
+
+form {
+  margin: 0 auto;
+}
+
+#photo.form-control {
+  color: #007e6e !important;
+}
+
+.result-values {
+  padding-top: 10px;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+footer a {
+  color: #007e6e !important;
+}
+
+add-to-calendar-button#calendar::part(atcb-button),
+#atcb-btn-calendar-modal-host::part(atcb-button) {
+  background-color: #71b394;
+  color: #fff;
+  border: #264f3c;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.error {
+  color: coral;
+  font-weight: bolder;
+  margin-right: 10%;
+}

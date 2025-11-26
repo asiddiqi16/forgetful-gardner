@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=67.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forgetful-gardner_backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncio>=3.4.3",
+    "fastapi>=0.115.14",
+    "httpx>=0.28.1",
+    "uvicorn[standard]>=0.34.3"
+]
+
