@@ -9,6 +9,7 @@ import cv2
 import numpy as np
 
 
+# I used an LLM to help me come up with the required cv2 functions needed to clean up the image for text processing
 class RotateFlags(IntEnum):
     ROTATE_90_CLOCKWISE = cv2.ROTATE_90_CLOCKWISE
     ROTATE_180 = cv2.ROTATE_180

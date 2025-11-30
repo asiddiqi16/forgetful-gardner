@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# I used an LLM to help come up with this bash script
 MODEL_NAME="${OLLAMA_MODEL:-llama2}"
 
 ollama serve &

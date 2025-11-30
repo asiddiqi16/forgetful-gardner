@@ -55,6 +55,7 @@ def get_image_orientation(image: cv2.typing.MatLike) -> PytesseractOSD:
     return image_to_osd(image, output_type=Output.DICT)
 
 
+# I used an LLM to help me come up with this bit of code for quality analysis.
 def get_text_read_quality(
     image_data: dict, confidence: int = 60, line_threshold: int = 2
 ) -> bool:

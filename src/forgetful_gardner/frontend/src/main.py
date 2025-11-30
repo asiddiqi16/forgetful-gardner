@@ -20,6 +20,7 @@ from processing_labels.garden_label_processor import (
     get_plant_care_text_from_image_bytes,
 )
 
+# I used an LLM to come up with the skeleton code for using FastAPI and JINJA template
 app = FastAPI()
 
 TEMPLATES_DIR = Path("/home/forgetful_gardner/src/templates")

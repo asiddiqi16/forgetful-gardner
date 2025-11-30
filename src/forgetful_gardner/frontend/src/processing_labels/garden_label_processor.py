@@ -62,6 +62,7 @@ def get_plant_care_text(image_file_path: Path | str) -> Optional[list[str]]:
     return image_text_list
 
 
+# I used an LLM to help me turn the get plant care text to one that can process image bytes
 def get_plant_care_text_from_image_bytes(image_bytes: bytes) -> Optional[list[str]]:
     """Get the plant care text from a given image.
 
